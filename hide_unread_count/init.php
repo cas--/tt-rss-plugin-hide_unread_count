@@ -16,7 +16,7 @@ class Hide_Unread_Count extends Plugin {
 
     /* Remove feed counter */
     function get_css() {
-        return "#feedTree counterNode {"
+        return "#feedTree .counterNode {"
             . "display: none;"
             . "}"
             ;
